@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" role="img" aria-labelledby="minecraftTitle">
-  <title id="minecraftTitle">Minecraft logo</title>
-  <rect width="340" height="100" rx="20" fill="#050505" />
-  <rect x="20" y="24" width="260" height="14" rx="4" fill="#d6a800" />
-  <rect x="20" y="44" width="260" height="14" rx="4" fill="#d6a800" />
-  <rect x="20" y="64" width="260" height="14" rx="4" fill="#d6a800" />
-  <path d="M60 21h20v58H60V21Zm34 0h20v58H94V21Zm34 0h20v58h-20V21Zm34 0h20v58h-20V21Zm34 0h20v58h-20V21Zm34 0h20v58h-20V21Z" fill="#050505" />
-  <path d="M40 36h16v16H40V36Zm18 0h16v16H58V36Zm18 0h16v16H76V36Zm18 0h16v16H94V36Zm18 0h16v16H112V36Zm18 0h16v16H130V36Zm18 0h16v16H148V36Zm18 0h16v16H166V36Zm18 0h16v16H184V36Zm18 0h16v16H202V36Z" fill="#d6a800" opacity="0.15" />
-</svg>
