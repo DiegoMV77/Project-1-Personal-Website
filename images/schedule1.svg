@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" role="img" aria-labelledby="schedule1Title">
+  <title id="schedule1Title">Schedule 1 logo</title>
+  <rect width="340" height="100" rx="20" fill="#050505" />
+  <rect x="40" y="24" width="90" height="52" rx="12" fill="#d6a800" />
+  <path d="M62 38h52v10H62v-10Zm0 18h52v10H62v-10Z" fill="#050505" />
+  <path d="M196 24h72v12h-72v-12Zm0 24h72v12h-72v-12Zm0 24h72v12h-72v-12Z" fill="#d6a800" opacity="0.75" />
+  <path d="M48 44l-12 10H32l12-10Zm0 22l-12 10H32l12-10Z" fill="#050505" />
+</svg>
