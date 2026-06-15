@@ -161,7 +161,7 @@ main {
 
 .place-list {
   margin: 1.5rem 0 0;
-  padding-left: 1.35rem;
+  padding: 0;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.85rem 1.5rem;
@@ -169,15 +169,54 @@ main {
 }
 
 .place-list li {
-  padding: 0.95rem 1rem;
+  margin: 0;
+}
+
+.place-list a {
+  display: block;
+  padding: 1.05rem 1.1rem;
   background: rgba(214, 168, 0, 0.09);
   border: 1px solid rgba(214, 168, 0, 0.2);
-  border-radius: 16px;
+  border-radius: 18px;
   color: var(--gold);
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.09em;
+  text-decoration: none;
+  transition: transform 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+}
+
+.place-list a:hover,
+.place-list a:focus {
+  background: rgba(214, 168, 0, 0.17);
+  box-shadow: 0 12px 25px rgba(214, 168, 0, 0.18);
+  transform: translateY(-1px);
+}
+
+.back-button {
+  display: inline-flex;
+  margin-top: 1.5rem;
+  padding: 0.95rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid rgba(214, 168, 0, 0.4);
+  background: rgba(214, 168, 0, 0.1);
+  color: var(--gold);
+  text-decoration: none;
   letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+.country-section {
+  margin-top: 2rem;
+}
+
+.country-section h2 {
+  margin-bottom: 1rem;
+}
+
+.country-section p {
+  line-height: 1.9;
 }
 
 .details {
