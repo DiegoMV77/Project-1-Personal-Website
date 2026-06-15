@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" role="img" aria-labelledby="robloxTitle">
+  <title id="robloxTitle">Roblox logo</title>
+  <rect width="340" height="100" rx="20" fill="#050505" />
+  <path d="M80 20l120 40-20 40-120-40 20-40Z" fill="#d6a800" />
+  <path d="M200 22l80 26-18 36-80-26 18-36Z" fill="#050505" />
+  <path d="M110 26l90 30-12 22-90-30 12-22Z" fill="#d6a800" opacity="0.85" />
+  <path d="M232 42l12 32 18-6-12-32-18 6Z" fill="#d6a800" />
+</svg>
