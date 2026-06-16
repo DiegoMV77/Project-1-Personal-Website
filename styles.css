@@ -184,6 +184,36 @@ main {
   color: rgba(247, 242, 232, 0.92);
 }
 
+/* Hobbies section styling */
+.hobbies-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.hobby {
+  padding: 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(214, 168, 0, 0.12);
+  border-radius: 18px;
+}
+
+.hobby h3 {
+  color: var(--gold);
+  font-size: 1.6rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
+.hobby p {
+  color: rgba(247, 242, 232, 0.9);
+  line-height: 1.8;
+  font-size: 1.03rem;
+  margin: 0;
+}
+
 .place-list {
   margin: 1.5rem 0 0;
   padding: 0;
@@ -258,5 +288,9 @@ main {
   }
   .games-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .hobbies-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
   }
 }
